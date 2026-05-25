@@ -1,14 +1,14 @@
 {
-  "name": "blogapi",
+"name": "blogapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API de um Blog básico",
+  "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["blog", "api", "express", "typescript", "prisma", "node"],
+  "author": "Pietra Ferreira Onofre",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
     "@types/cors": "^2.8.19",
