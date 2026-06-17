@@ -1,21 +1,21 @@
 import { RequestHandler } from "express"
 
+export const addPost: RequestHandler = async (req, res) => {
+		// Lógica para adicionar um novo post
+}
 
+export const editPost: RequestHandler = async (req, res) => {
+		// Lógica para editar um post existente
+}
 
-
-
-
-
-
-
-export const deletePosts: RequestHandler = async (req, res) => {
-    // lógica para deletar um post
+export const deletePost: RequestHandler = async (req, res) => {
+		// Lógica para deletar um post
 }
 
 export const getAllPosts: RequestHandler = async (req, res) => {
-    // lógica para obter todos os posts
+		// Lógica para obter todos os posts
 }
 
-export const getPosts: RequestHandler = async (req, res) => {
-    // lógica para obter um post específico
+export const getPost: RequestHandler = async (req, res) => {
+		// Lógica para obter um post específico
 }
